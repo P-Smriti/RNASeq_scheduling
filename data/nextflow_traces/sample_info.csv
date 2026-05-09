@@ -1,1 +1,11 @@
-
+sample_id,organism,reads_M,platform
+SRR1234501,Homo sapiens (breast cancer),35,Illumina NovaSeq
+SRR1234502,Homo sapiens (lung tissue),28,Illumina HiSeq 4000
+SRR1234503,Homo sapiens (liver biopsy),42,Illumina NovaSeq
+SRR1234504,Mus musculus (brain),20,Illumina HiSeq 2500
+SRR1234505,Mus musculus (kidney),15,Illumina NextSeq 500
+SRR1234506,Homo sapiens (blood PBMC),50,Illumina NovaSeq
+SRR1234507,Homo sapiens (colon tumor),38,Illumina HiSeq 4000
+SRR1234508,Drosophila melanogaster,12,Illumina MiSeq
+SRR1234509,Arabidopsis thaliana,18,Illumina HiSeq 2500
+SRR1234510,Homo sapiens (pancreatic),45,Illumina NovaSeq
