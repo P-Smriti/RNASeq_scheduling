@@ -430,7 +430,7 @@ Finally, the round-up granularity could be made dynamic rather than fixed at 50 
 | Sequence Read Archive (SRA) | https://www.ncbi.nlm.nih.gov/sra |
 | KU HPC documentation | https://hpc.ku.edu/ |
 | scikit-learn | https://scikit-learn.org/ |
-| Project repository | [your git link] |
+| Project repository | https://github.com/P-Smriti/RNASeq_scheduling |
 
 ## Appendix B: Declaration of AI Usage
 
