@@ -1,69 +1,69 @@
 {
-  "name": "rnaseq_wf_00",
+  "name": "rnaseq_wf_02",
   "schemaVersion": "1.4",
-  "description": "2 samples, 5M reads",
+  "description": "2 samples, 20M reads",
   "workflow": {
     "execution": {
       "tasks": [
         {
           "name": "fastqc_s0",
           "category": "fastqc",
-          "runtime": 0.61
+          "runtime": 2.6
         },
         {
           "name": "trimming_s0",
           "category": "trimming",
-          "runtime": 1.63
+          "runtime": 7.14
         },
         {
           "name": "alignment_s0",
           "category": "alignment",
-          "runtime": 4.95
+          "runtime": 38.73
         },
         {
           "name": "sort_index_s0",
           "category": "sort_index",
-          "runtime": 1.5
+          "runtime": 11.98
         },
         {
           "name": "markdup_s0",
           "category": "markdup",
-          "runtime": 3.22
+          "runtime": 10.13
         },
         {
           "name": "quant_s0",
           "category": "quant",
-          "runtime": 1.93
+          "runtime": 6.31
         },
         {
           "name": "fastqc_s1",
           "category": "fastqc",
-          "runtime": 0.64
+          "runtime": 2.67
         },
         {
           "name": "trimming_s1",
           "category": "trimming",
-          "runtime": 1.57
+          "runtime": 5.34
         },
         {
           "name": "alignment_s1",
           "category": "alignment",
-          "runtime": 5.74
+          "runtime": 41.63
         },
         {
           "name": "sort_index_s1",
           "category": "sort_index",
-          "runtime": 1.5
+          "runtime": 6.59
         },
         {
           "name": "markdup_s1",
           "category": "markdup",
-          "runtime": 1.91
+          "runtime": 10.62
         },
         {
           "name": "quant_s1",
           "category": "quant",
-          "runtime": 1.16
+          "runtime": 7.93
         }
       ]
     }

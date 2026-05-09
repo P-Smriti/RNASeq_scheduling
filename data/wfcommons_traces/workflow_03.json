@@ -1,69 +1,99 @@
 {
-  "name": "rnaseq_wf_00",
+  "name": "rnaseq_wf_03",
   "schemaVersion": "1.4",
-  "description": "2 samples, 5M reads",
+  "description": "3 samples, 20M reads",
   "workflow": {
     "execution": {
       "tasks": [
         {
           "name": "fastqc_s0",
           "category": "fastqc",
-          "runtime": 0.61
+          "runtime": 2.15
         },
         {
           "name": "trimming_s0",
           "category": "trimming",
-          "runtime": 1.63
+          "runtime": 8.27
         },
         {
           "name": "alignment_s0",
           "category": "alignment",
-          "runtime": 4.95
+          "runtime": 37.89
         },
         {
           "name": "sort_index_s0",
           "category": "sort_index",
-          "runtime": 1.5
+          "runtime": 7.14
         },
         {
           "name": "markdup_s0",
           "category": "markdup",
-          "runtime": 3.22
+          "runtime": 9.75
         },
         {
           "name": "quant_s0",
           "category": "quant",
-          "runtime": 1.93
+          "runtime": 9.86
         },
         {
           "name": "fastqc_s1",
           "category": "fastqc",
-          "runtime": 0.64
+          "runtime": 3.08
         },
         {
           "name": "trimming_s1",
           "category": "trimming",
-          "runtime": 1.57
+          "runtime": 4.83
         },
         {
           "name": "alignment_s1",
           "category": "alignment",
-          "runtime": 5.74
+          "runtime": 34.55
         },
         {
           "name": "sort_index_s1",
           "category": "sort_index",
-          "runtime": 1.5
+          "runtime": 5.99
         },
         {
           "name": "markdup_s1",
           "category": "markdup",
-          "runtime": 1.91
+          "runtime": 15.3
         },
         {
           "name": "quant_s1",
           "category": "quant",
-          "runtime": 1.16
+          "runtime": 7.23
+        },
+        {
+          "name": "fastqc_s2",
+          "category": "fastqc",
+          "runtime": 2.81
+        },
+        {
+          "name": "trimming_s2",
+          "category": "trimming",
+          "runtime": 9.03
+        },
+        {
+          "name": "alignment_s2",
+          "category": "alignment",
+          "runtime": 30.85
+        },
+        {
+          "name": "sort_index_s2",
+          "category": "sort_index",
+          "runtime": 12.7
+        },
+        {
+          "name": "markdup_s2",
+          "category": "markdup",
+          "runtime": 12.09
+        },
+        {
+          "name": "quant_s2",
+          "category": "quant",
+          "runtime": 7.51
         }
       ]
     }

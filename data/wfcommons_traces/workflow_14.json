@@ -1,0 +1,131 @@
+{
+  "name": "rnaseq_wf_14",
+  "schemaVersion": "1.4",
+  "description": "4 samples, 20M reads",
+  "workflow": {
+    "execution": {
+      "tasks": [
+        {
+          "name": "fastqc_s0",
+          "category": "fastqc",
+          "runtime": 4.3
+        },
+        {
+          "name": "trimming_s0",
+          "category": "trimming",
+          "runtime": 6.48
+        },
+        {
+          "name": "alignment_s0",
+          "category": "alignment",
+          "runtime": 46.92
+        },
+        {
+          "name": "sort_index_s0",
+          "category": "sort_index",
+          "runtime": 9.4
+        },
+        {
+          "name": "markdup_s0",
+          "category": "markdup",
+          "runtime": 10.5
+        },
+        {
+          "name": "quant_s0",
+          "category": "quant",
+          "runtime": 7.97
+        },
+        {
+          "name": "fastqc_s1",
+          "category": "fastqc",
+          "runtime": 2.44
+        },
+        {
+          "name": "trimming_s1",
+          "category": "trimming",
+          "runtime": 5.51
+        },
+        {
+          "name": "alignment_s1",
+          "category": "alignment",
+          "runtime": 32.85
+        },
+        {
+          "name": "sort_index_s1",
+          "category": "sort_index",
+          "runtime": 10.76
+        },
+        {
+          "name": "markdup_s1",
+          "category": "markdup",
+          "runtime": 9.38
+        },
+        {
+          "name": "quant_s1",
+          "category": "quant",
+          "runtime": 5.16
+        },
+        {
+          "name": "fastqc_s2",
+          "category": "fastqc",
+          "runtime": 2.9
+        },
+        {
+          "name": "trimming_s2",
+          "category": "trimming",
+          "runtime": 4.76
+        },
+        {
+          "name": "alignment_s2",
+          "category": "alignment",
+          "runtime": 47.56
+        },
+        {
+          "name": "sort_index_s2",
+          "category": "sort_index",
+          "runtime": 7.87
+        },
+        {
+          "name": "markdup_s2",
+          "category": "markdup",
+          "runtime": 8.66
+        },
+        {
+          "name": "quant_s2",
+          "category": "quant",
+          "runtime": 8.03
+        },
+        {
+          "name": "fastqc_s3",
+          "category": "fastqc",
+          "runtime": 4.01
+        },
+        {
+          "name": "trimming_s3",
+          "category": "trimming",
+          "runtime": 8.42
+        },
+        {
+          "name": "alignment_s3",
+          "category": "alignment",
+          "runtime": 38.77
+        },
+        {
+          "name": "sort_index_s3",
+          "category": "sort_index",
+          "runtime": 10.91
+        },
+        {
+          "name": "markdup_s3",
+          "category": "markdup",
+          "runtime": 9.61
+        },
+        {
+          "name": "quant_s3",
+          "category": "quant",
+          "runtime": 7.2
+        }
+      ]
+    }
+  }
+}
